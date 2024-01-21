@@ -712,6 +712,59 @@ hr {
 }
 
 
+/*   Dart mode */
+
+
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 48px;
+    top: 17px;
+    border-radius: 200px;
+box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+
+label:before{
+    position: absolute;
+    content: '';
+    width:20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    background: #000;
+    cursor: pointer;
+    transition: 0.4s;
+}
+label.active:before{
+    left: 24px;
+    background: #fff;
+}
+body.night{
+    background: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  old Certifications
 
